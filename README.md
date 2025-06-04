@@ -45,7 +45,8 @@ Selector selector = Selector.SelectorTree("div#main.content");
 ```
 ---
 
-# HtmlHelper.cs
+### `HtmlHelper.cs`
+
 Loads valid HTML tag definitions (using Newtonsoft.Json) from:
 
 HtmlTags.json
