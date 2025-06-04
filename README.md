@@ -56,7 +56,6 @@ HtmlVoidTags.json
 
 ```csharp
 var html = await Load("https://hebrewbooks.org/beis");
-```
 
 var cleanHtml = new Regex("[\\r\\t\\n]").Replace(html, " ");
 var htmlLines = new Regex("<(.*?)>").Split(cleanHtml)
@@ -81,6 +80,7 @@ HtmlHelper.cs – Loads HTML tag data from JSON
 Program.cs – Entry point: load HTML and run queries
 
 HtmlTags.json, HtmlVoidTags.json – Lists of valid HTML and void tags
+```
 
 ---
 
