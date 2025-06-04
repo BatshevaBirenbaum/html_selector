@@ -86,5 +86,7 @@ Improve parser to handle malformed HTML more gracefully
 
 Add unit tests for DOM and selector logic
 
+---
+
 🤝 Contributions
 Feel free to fork the project, suggest improvements, or open pull requests.
