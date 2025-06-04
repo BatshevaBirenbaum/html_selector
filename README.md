@@ -67,6 +67,7 @@ Selector selector = Selector.SelectorTree("h2");
 
 var result = HtmlElement.findSelector(root, selector, new HashSet<HtmlElement>());
 result.ToList().ForEach(e => Console.WriteLine(e.ToString()));
+```
 
 ---
 
@@ -80,7 +81,6 @@ HtmlHelper.cs – Loads HTML tag data from JSON
 Program.cs – Entry point: load HTML and run queries
 
 HtmlTags.json, HtmlVoidTags.json – Lists of valid HTML and void tags
-```
 
 ---
 
