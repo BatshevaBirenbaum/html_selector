@@ -39,7 +39,6 @@ HtmlVoidTags.json
 Builds a selector tree from CSS-style strings for structured querying:
 
 
-```markdown
 ```csharp
 Selector selector = Selector.SelectorTree("div#main.content");
 ```
