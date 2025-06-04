@@ -43,7 +43,9 @@ Builds a selector tree from CSS-style strings for structured querying:
 ```csharp
 Selector selector = Selector.SelectorTree("div#main.content");
 ```
-HtmlHelper.cs
+---
+
+# HtmlHelper.cs
 Loads valid HTML tag definitions (using Newtonsoft.Json) from:
 
 HtmlTags.json
