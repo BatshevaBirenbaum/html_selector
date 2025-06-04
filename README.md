@@ -21,6 +21,7 @@ This project mimics core browser DOM traversal and querying functionality with a
 ### `HtmlElement.cs`
 
 Represents a DOM node with:
+
 - `Name`, `Id`, and list of `Classes`
 - Full set of attributes
 - Parent and child relationships
@@ -86,7 +87,7 @@ Improve parser to handle malformed HTML more gracefully
 
 Add unit tests for DOM and selector logic
 
----
-
 🤝 Contributions
 Feel free to fork the project, suggest improvements, or open pull requests.
+
+
