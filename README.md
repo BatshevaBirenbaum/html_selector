@@ -71,7 +71,7 @@ result.ToList().ForEach(e => Console.WriteLine(e.ToString()));
 
 ---
 
-##🗂 File Structure
+## 🗂 File Structure
 HtmlElement.cs – DOM node logic and tree traversal
 
 Selector.cs – CSS-style selector parsing and tree matching
@@ -84,7 +84,7 @@ HtmlTags.json, HtmlVoidTags.json – Lists of valid HTML and void tags
 
 ---
 
-##📋 Requirements
+## 📋 Requirements
 .NET 6.0+
 
 Newtonsoft.Json (for reading tag definitions)
@@ -95,7 +95,7 @@ Ensure that HtmlTags.json and HtmlVoidTags.json are present in the working direc
 
 ---
 
-##🛠 Potential Improvements
+## 🛠 Potential Improvements
 Add support for additional attributes beyond id and class
 
 Support pseudo-selectors (e.g. :first-child, :nth-of-type)
@@ -106,6 +106,6 @@ Add unit tests for DOM and selector logic
 
 ---
 
-##🤝 Contributions
+## 🤝 Contributions
 Feel free to fork the project, suggest improvements, or open pull requests.
 
