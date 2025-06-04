@@ -1,0 +1,44 @@
+## Build results
+bin/
+obj/
+
+## NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+*.snupkg
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Mono Auto Generated Files
+mono_crash.*
+
+## VS Code files
+.vscode/
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Logs
+*.log
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+
+## Others
+*.dbmdl
+*.dbschema
+*.pdb
+*.cache
+TestResults/
